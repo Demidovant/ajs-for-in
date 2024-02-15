@@ -1,3 +1,5 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/r0p4whw8tkjlg4oi?svg=true)](https://ci.appveyor.com/project/Demidovant/ajs-for-in)
+
 # Домашнее задание к лекции «Object, Reflection и Proxy»
 
 **Важно**: каждая задача выполняется в виде отдельного проекта с собственным GitHub репозиторием.

@@ -2,7 +2,7 @@
   "name": "ajs-for-in",
   "version": "1.0.0",
   "description": "**Важно**: каждая задача выполняется в виде отдельного проекта с собственным GitHub репозиторием.",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development",
     "test": "jest",
@@ -47,5 +47,11 @@
   },
   "dependencies": {
     "core-js": "^3.35.1"
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/"
+  },
+  "scripts": {
+    "build": "webpack --mode production"
   }
 }
