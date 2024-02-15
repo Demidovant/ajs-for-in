@@ -13,8 +13,7 @@
     "show:coverage": "live-server coverage/lcov-report",
     "preshow:dist": "npm run build",
     "show:dist": "live-server dist",
-    "prettier": "prettier  — write src/**/*.js",
-    "build": "webpack --mode production"
+    "prettier": "prettier  — write src/**/*.js"
   },
   "repository": {
     "type": "git",
