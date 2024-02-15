@@ -1,4 +1,4 @@
-import orderByProps from '../sort_lables';
+import orderByProps from '../sort_labels';
 
 test('orderByProps function with initial props', () => {
   const character = {
