@@ -13,7 +13,8 @@
     "show:coverage": "live-server coverage/lcov-report",
     "preshow:dist": "npm run build",
     "show:dist": "live-server dist",
-    "prettier": "prettier  — write src/**/*.js"
+    "prettier": "prettier  — write src/**/*.js",
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -50,8 +51,5 @@
   },
   "publishConfig": {
     "registry":"https://npm.pkg.github.com/"
-  },
-  "scripts": {
-    "build": "webpack --mode production"
   }
 }
